@@ -105,7 +105,7 @@ namespace SimpleScoclScriptCompiler
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
-                ofd.Filter = "c source files (*.c)|*.txt|All files (*.*)|*.*";
+                ofd.Filter = "c source files (*.c)|*.c|All files (*.*)|*.*";
 
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
